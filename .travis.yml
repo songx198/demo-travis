@@ -9,6 +9,10 @@ script:
  - npm test
  - npm run build
 
+ notification:
+  email: songx1998@gmail.com
+
+
 deploy:
   provider: pages
   skip_cleanup: true
