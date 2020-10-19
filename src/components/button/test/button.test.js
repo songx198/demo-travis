@@ -21,10 +21,5 @@ it("test label du button", () => {
     expect(getByTestId('button')).toHaveTextContent("Cliquer")
 })
 
-//pour regarder les differences entre les anciens test et les new tests
-it("test snapshot", () => {
-    const tree = render2.create(<Button label="save"></Button>).toJSON();
-    expect(tree).toMatchSnapshot();
-})
 
 
