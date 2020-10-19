@@ -15,10 +15,10 @@ it("test button", () => {
     ReactDom.render(<Button></Button>, div)
 })
 
-//tester si le Text Content de mon button est-t-il égale a "Click"
+//tester si le Text Content de mon button est-t-il égale a "Cliquer"
 it("test label du button", () => {
-    const { getByTestId } = render(<Button label="Click"></Button>)
-    expect(getByTestId('button')).toHaveTextContent("Click")
+    const { getByTestId } = render(<Button label="Cliquer"></Button>)
+    expect(getByTestId('button')).toHaveTextContent("Cliquer")
 })
 
 //pour regarder les differences entre les anciens test et les new tests
