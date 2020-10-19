@@ -8,7 +8,11 @@ install:
 script:
  - npm test
  - npm run build
- 
+
+notification:
+ - songx1998@gmail.com
+
+
 deploy:
   provider: pages
   skip_cleanup: true
